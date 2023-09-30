@@ -1,0 +1,97 @@
+body {
+        font-family: "Roboto", sans-serif;
+        background-color: #ffffff;
+        color: #434455;
+}
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+        color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
+
+.logo-color {}
+
+.header-menu {}
+
+.header-menu-item {
+        color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.header-menu-link {}
+
+.header-contact {}
+
+.header-contact-menu {}
+
+.header-contact-list {
+        color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.hero {}
+
+.hero-title {
+        color: #FFF;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+
+.hero-btn {}
+
+.advantages {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {}
+
+.advantages-item-text {}
+
+.team {}
+
+.team-list {}
+
+.team-item {}
+
+.team-imegs {}
+
+.team-subtitle {}
+
+.team-text {}
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-imeg {}
+
+.portfolio-subtitle {}
+
+.portfolio-item-text {}
+
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
