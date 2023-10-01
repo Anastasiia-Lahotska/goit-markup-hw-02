@@ -19,8 +19,9 @@ a {
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .logo-color {
@@ -49,7 +50,9 @@ a {
         color: #404BBF
 }
 
-.header-contact {}
+.header-contact {
+        font-style: normal;
+}
 
 .header-contact-menu {}
 
@@ -75,6 +78,7 @@ a {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 .hero-btn {
@@ -136,8 +140,10 @@ a {
         color: #2E2F42;
          font-size: 36px;
          font-weight: 700;
-         line-height: 1.11;
+         line-height: 1.2;
          letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .team-list {}
@@ -171,6 +177,8 @@ a {
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .portfolio-list {}
