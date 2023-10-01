@@ -3,6 +3,13 @@ body {
         background-color: #ffffff;
         color: #434455;
 }
+ul {
+        list-style: none;
+}
+
+a {
+        text-decoration: none;
+}
 .header {}
 
 .header-navigation {}
@@ -16,19 +23,31 @@ body {
         letter-spacing: 0.03em;
 }
 
-.logo-color {}
+.logo-color {
+        color: #2E2F42;
+         font-family: Raleway;
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 1.16;
+         letter-spacing: 0.03em;
+}
 
 .header-menu {}
 
-.header-menu-item {
-        color: #2E2F42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
+.header-menu-item {}
 
-.header-menu-link {}
+
+.header-menu-link {
+        color: #2E2F42;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+        }
+
+.header-menu-link:hover, .header-menu-link:focus {
+        color: #404BBF
+}
 
 .header-contact {}
 
@@ -42,7 +61,13 @@ body {
         letter-spacing: 0.02em;
 }
 
-.hero {}
+.header-contact-list:hover, .header-contact-list:focus {
+        color: #404BBF
+}
+
+.hero {
+        background-color: #2E2F42;
+}
 
 .hero-title {
         color: #FFF;
@@ -52,33 +77,101 @@ body {
         letter-spacing: 0.02em;
 }
 
-.hero-btn {}
+.hero-btn {
+        color: #FFF;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        background-color: #4D5AE5;
+}
+.hero-btn:hover, .hero-btn:focus {
+        background-color: #404BBF;
+}
 
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+/* ==============ADVANTAGES=========== */
 .advantages {}
 
 .advantages-list {}
 
 .advantages-item {}
 
-.advantages-subtitle {}
+.advantages-subtitle {
+        color:#2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
 
-.advantages-item-text {}
+.advantages-item-text {
+        color:#434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/* ================================== */
 
-.team {}
+/* ==============TEAM=========== */
+.team {
+        background-color: #F4F4FD;
+}
+
+.team-title{
+        color: #2E2F42;
+         font-size: 36px;
+         font-weight: 700;
+         line-height: 1.11;
+         letter-spacing: 0.02em;
+}
 
 .team-list {}
 
-.team-item {}
+.team-item {background-color: #FFF;}
 
 .team-imegs {}
 
-.team-subtitle {}
+.team-subtitle {
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+}
 
-.team-text {}
+.team-text {
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ================================== */
 
 .portfolio {}
 
-.portfolio-title {}
+.portfolio-title {
+        color: #2E2F42;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
 
 .portfolio-list {}
 
@@ -86,12 +179,46 @@ body {
 
 .portfolio-item-imeg {}
 
-.portfolio-subtitle {}
+.portfolio-subtitle {
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
 
-.portfolio-item-text {}
+.portfolio-item-text {
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 
-.footer {}
+.footer {
+        background-color: #2E2F42;
+}
 
-.footer-logo {}
+.footer-logo {
+        color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
 
-.footer-text {}
+.footer-logo-color {
+        color: #F4F4FD;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
+
+.footer-text {
+        color: #F4F4FD;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
